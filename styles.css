@@ -1,74 +1,81 @@
+body {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /*background-color: black;*/
+    background-size: 100px;
+    background-image: linear-gradient(rgba(190, 232, 248, 0.627), rgba(138, 200, 247, 0.627)), url(ceilings.jpg);
+}
+
 #browser {
     box-sizing: border-box;
-    background-color:beige;
+    background-color:rgb(137, 185, 217);
     padding: 1% 5px 0px;
-    border: 2px solid black;
+    /*border: 2px solid black;*/
     width: 700px;
-    margin: 0 auto;
+    margin: 50px auto;
     vertical-align: top;
 }
 
-#titlebar {
+.box {
     box-sizing: border-box;
-    border: 2px solid black;
-    padding: 4px;
-    background-color: azure;
+    /*border: 2px solid black;*/
     width: 99.9%;
+    background-color: rgb(245, 251, 255);
+}
+
+#titlebar {
+    padding: 4px;
     /*margin: 0 auto;*/
 }
 
 #browserbar {
-    box-sizing: border-box;
-    border: 2px solid black;
+    background-image: linear-gradient(to bottom, rgb(245, 251, 255), rgb(142, 192, 226));
     padding: 8px 5px;
-    background-color: azure;
-    width: 99.9%;
-    margin-top: 1px;
+    margin-top: 3px;
 }
 
 #filebar {
-    box-sizing: border-box;
-    border: 2px solid black;
+    background-image: linear-gradient(to bottom, rgb(142, 192, 226), rgb(245, 251, 255));
     padding: 12px 5px;
-    background-color: azure;
-    width: 99.9%;
-    margin-top: 1px;
+    margin-top: 3px;
 }
 
 #infoblock1 {
-    box-sizing: border-box;
-    border: 2px solid black;
-    padding: 200px 5px;
-    background-color: azure;
-    width: 99.9%;
-    margin-top: 1px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    height: 450px;
+    padding: 10px 5px;
+    margin-top: 3px;
+}
+
+.infoblock {
+    display: flex;
+    align-items: flex-end;
+}
+
+#infotext {
+    display: flex;
+    align-items: flex-end;
+}
+
+img {
+    max-width: 100%;
 }
 
 #insertbar {
-    box-sizing: border-box;
-    border: 2px solid black;
+    background-image: linear-gradient(to bottom, rgb(142, 192, 226), rgb(245, 251, 255));
     padding: 8px 5px;
-    background-color: azure;
-    width: 99.9%;
-    margin-top: 1px;
+    margin-top: 3px;
 }
 
 #imgblock {
-    box-sizing: border-box;
-    border: 2px solid black;
     padding: 30px 5px;
-    background-color: azure;
-    width: 99.9%;
-    margin-top: 1px;
+    margin-top: 3px;
 }
 
 #infoblock2 {
-    box-sizing: border-box;
-    border: 2px solid black;
     padding: 170px 5px;
-    background-color: azure;
-    width: 99.9%;
-    margin-top: 1px;
+    margin-top: 3px;
 }
 
 .footer {
