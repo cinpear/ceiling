@@ -74,7 +74,11 @@ img {
 }
 
 #infoblock2 {
-    padding: 170px 5px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 0px 5px;
+    height: 350px;
     margin-top: 3px;
 }
 
