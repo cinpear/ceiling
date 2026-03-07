@@ -1,0 +1,76 @@
+#browser {
+    box-sizing: border-box;
+    background-color:beige;
+    padding: 1% 5px 0px;
+    border: 2px solid black;
+    width: 700px;
+    margin: 0 auto;
+    vertical-align: top;
+}
+
+#titlebar {
+    box-sizing: border-box;
+    border: 2px solid black;
+    padding: 4px;
+    background-color: azure;
+    width: 99.9%;
+    /*margin: 0 auto;*/
+}
+
+#browserbar {
+    box-sizing: border-box;
+    border: 2px solid black;
+    padding: 8px 5px;
+    background-color: azure;
+    width: 99.9%;
+    margin-top: 1px;
+}
+
+#filebar {
+    box-sizing: border-box;
+    border: 2px solid black;
+    padding: 12px 5px;
+    background-color: azure;
+    width: 99.9%;
+    margin-top: 1px;
+}
+
+#infoblock1 {
+    box-sizing: border-box;
+    border: 2px solid black;
+    padding: 200px 5px;
+    background-color: azure;
+    width: 99.9%;
+    margin-top: 1px;
+}
+
+#insertbar {
+    box-sizing: border-box;
+    border: 2px solid black;
+    padding: 8px 5px;
+    background-color: azure;
+    width: 99.9%;
+    margin-top: 1px;
+}
+
+#imgblock {
+    box-sizing: border-box;
+    border: 2px solid black;
+    padding: 30px 5px;
+    background-color: azure;
+    width: 99.9%;
+    margin-top: 1px;
+}
+
+#infoblock2 {
+    box-sizing: border-box;
+    border: 2px solid black;
+    padding: 170px 5px;
+    background-color: azure;
+    width: 99.9%;
+    margin-top: 1px;
+}
+
+.footer {
+    text-align: center;
+}
