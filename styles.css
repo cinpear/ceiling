@@ -1,13 +1,19 @@
+:root {
+    --light-blue: rgb(234, 250, 255);
+    --dark-blue: rgb(179, 216, 246);
+    --darkest-blue: rgb(129, 175, 240);
+}
+
 body {
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     /*background-color: black;*/
     background-size: 100px;
-    background-image: linear-gradient(rgba(190, 232, 248, 0.627), rgba(138, 200, 247, 0.627)), url(ceilings.jpg);
+    background-image: linear-gradient(rgba(230, 245, 252, 0.627), rgba(163, 209, 245, 0.627)), url(ceilings.jpg);
 }
 
 #browser {
     box-sizing: border-box;
-    background-color:rgb(137, 185, 217);
+    background-color: var(--darkest-blue);
     padding: 1% 5px 0px;
     /*border: 2px solid black;*/
     width: 700px;
@@ -16,10 +22,11 @@ body {
 }
 
 .box {
+    background-image: linear-gradient(45deg, var(--dark-blue), var(--light-blue));
     box-sizing: border-box;
     /*border: 2px solid black;*/
     width: 99.9%;
-    background-color: rgb(245, 251, 255);
+    background-color: var(--light-blue);
 }
 
 #titlebar {
@@ -28,13 +35,13 @@ body {
 }
 
 #browserbar {
-    background-image: linear-gradient(to bottom, rgb(245, 251, 255), rgb(142, 192, 226));
+    background-image: linear-gradient(to bottom, var(--light-blue), var(--dark-blue));
     padding: 8px 5px;
     margin-top: 3px;
 }
 
 #filebar {
-    background-image: linear-gradient(to bottom, rgb(142, 192, 226), rgb(245, 251, 255));
+    background-image: linear-gradient(to bottom, var(--dark-blue), var(--light-blue));
     padding: 12px 5px;
     margin-top: 3px;
 }
@@ -63,7 +70,7 @@ img {
 }
 
 #insertbar {
-    background-image: linear-gradient(to bottom, rgb(142, 192, 226), rgb(245, 251, 255));
+    background-image: linear-gradient(to bottom, var(--dark-blue), var(--light-blue));
     padding: 8px 5px;
     margin-top: 3px;
 }
