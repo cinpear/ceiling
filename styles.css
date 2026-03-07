@@ -42,6 +42,17 @@ body {
     background-image: linear-gradient(to bottom, var(--light-blue), var(--dark-blue));
     padding: 8px 5px;
     margin-top: 3px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+#urlbar {
+    color: rgb(51, 66, 82);
+    flex: 1;
+    padding-left: 4px;
+    background: white;
+    border: 2px inset var(--darkest-blue);
 }
 
 #filebar {
@@ -65,7 +76,20 @@ body {
     align-items: flex-end;
 }
 
-#infotext {
+.infoheader {
+    margin: 5px 0px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.infoheader b {
+    color: white;
+    text-shadow: 1.5px 1.5px 0px rgb(65, 125, 205);
+    padding: 5px;
+    background-color: var(--darkest-blue);
+}
+
+.infotext {
     display: flex;
     align-items: flex-end;
 }
