@@ -98,6 +98,10 @@ body {
     align-items: flex-end;
 }
 
+#extratext {
+    display: inline-block;
+}
+
 img {
     margin-top: 20px;
     max-width: 100%;
