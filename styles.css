@@ -2,6 +2,7 @@
     --light-blue: rgb(234, 250, 255);
     --dark-blue: rgb(179, 216, 246);
     --darkest-blue: rgb(129, 175, 240);
+    --drop-shadow: rgb(65, 125, 205);
 }
 
 body {
@@ -9,6 +10,16 @@ body {
     /*background-color: black;*/
     background-size: 100px;
     background-image: linear-gradient(rgba(230, 245, 252, 0.627), rgba(163, 209, 245, 0.627)), url(ceilings.jpg);
+}
+
+p {
+    margin: 0px;
+    display: inline;
+}
+
+.boldtext {
+    font-weight: 500;
+    color: var(--drop-shadow);
 }
 
 #browser {
@@ -35,7 +46,7 @@ body {
     justify-content: space-between;
     align-items: center;
     color: white;
-    text-shadow: 1.5px 1.5px 0px rgb(65, 125, 205);
+    text-shadow: 1.5px 1.5px 0px var(--drop-shadow);
 }
 
 #browserbar {
@@ -88,17 +99,21 @@ body {
 
 .infoheader b {
     color: white;
-    text-shadow: 1.5px 1.5px 0px rgb(65, 125, 205);
+    text-shadow: 1.5px 1.5px 0px var(--drop-shadow);
     padding: 5px;
     background-color: var(--darkest-blue);
 }
 
 .infotext {
-    display: flex;
-    align-items: flex-end;
+    /*display: flex;*/
+    /*align-items: flex-end;*/
 }
 
 #extratext {
+    display: inline-block;
+}
+
+#boldtext {
     display: inline-block;
 }
 
@@ -124,7 +139,7 @@ img {
     overflow: hidden;
     white-space: nowrap;
     color: white;
-    text-shadow: 1.5px 1.5px 0px rgb(65, 125, 205);
+    text-shadow: 1.5px 1.5px 0px var(--drop-shadow);
 }
 
 #insertbar .scrolltrack {
@@ -152,7 +167,7 @@ img {
 
 .footer {
     color: white;
-    text-shadow: 1.5px 1.5px 0px rgb(65, 125, 205);
+    text-shadow: 1.5px 1.5px 0px var(--drop-shadow);
     text-align: center;
     padding: 5px 0px;
 }
