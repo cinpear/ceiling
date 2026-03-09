@@ -157,8 +157,14 @@ img {
 }
 
 #imgblock {
-    padding: 30px 5px;
+    display: flex;
     margin-top: 3px;
+}
+
+#imgblock img {
+    margin-top: 0px;
+    height: 75px;
+    width: auto;
 }
 
 #infoblock2 {
