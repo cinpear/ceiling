@@ -137,6 +137,16 @@ img {
     max-width: 49%;
 }
 
+.dislikeimg {
+    align-self: center;
+}
+
+.dislikeimg img {
+    margin-top: 5px;
+    max-height: 100px;
+    width: auto;
+}
+
 #insertbar {
     background-image: linear-gradient(135deg, var(--dark-blue), var(--darkest-blue));
     padding: 8px 5px;
@@ -159,6 +169,8 @@ img {
 #imgblock {
     display: flex;
     margin-top: 3px;
+    align-items: center;
+    justify-content: center;
 }
 
 #imgblock img {
@@ -174,6 +186,16 @@ img {
     padding: 0px 5px;
     height: 360px;
     margin-top: 3px;
+}
+
+.findimg {
+    margin-top: 5px;
+    align-self: center;
+}
+
+.findimg img {
+    margin-top: 0px;
+    height: 118px;
 }
 
 .footer {
