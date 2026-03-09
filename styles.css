@@ -10,6 +10,11 @@
 ::-webkit-scrollbar-thumb { background: var(--dark-blue); border-radius: 6px; }
 ::-webkit-scrollbar-thumb:hover { background: var(--darkest-blue); }
 
+* {
+    cursor: url("CEILING-CURSOR.PNG"), auto;
+    
+}
+
 body {
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     /*background-color: black;*/
